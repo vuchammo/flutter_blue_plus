@@ -29,13 +29,7 @@ dependencies:
   flutter_blue_plus_darwin: '>=9.0.0 <9.0.1'
   flutter_blue_plus_linux: '>=9.0.0 <9.0.1'
   flutter_blue_plus_web: '>=9.0.0 <9.0.1'
-
-  # winrt intentionally not included:
-  #  - avoids blocking FBP releases on Windows updates
-  #  - Windows users can still add flutter_blue_plus_winrt manually
-  #  - Windows endorsement is still kept because older winrt releases
-  #    are often compatible with newer FBP releases.
-  #flutter_blue_plus_winrt: 
+  flutter_blue_plus_winrt: '>= 0.0.20'
 
 dev_dependencies:
   flutter_lints: ^5.0.0
