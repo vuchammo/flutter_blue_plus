@@ -741,10 +741,14 @@ class BluetoothDevice {
 /// License type for using FlutterBluePlus.
 /// See the LICENSE file in the root of the project for full terms.
 enum License {
-  /// Free use under the FlutterBluePlus License, for:
+  /// Nonprofit use under the FlutterBluePlus License, for:
   /// - Personal use
   /// - Nonprofits
   /// - Educational institutions
+  nonprofit,
+
+  /// Deprecated alias for [License.nonprofit].
+  @Deprecated('Use License.nonprofit instead')
   free,
 
   /// Commercial use under the FlutterBluePlus License, required for:
