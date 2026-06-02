@@ -1,3 +1,6 @@
+## 2.3.5
+* **[LICENSE]** add license ping during build: package name & app name
+
 ## 2.3.4
 * **[Improve]** Rename: `License.free` to `Licenese.nonprofit` for clarity
 

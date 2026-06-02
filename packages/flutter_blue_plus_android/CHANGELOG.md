@@ -1,3 +1,6 @@
+## 9.0.1
+* **[LICENSE]** add license ping during build w/ package name & app name
+
 ## 9.0.0
 * **[Fix]** Android: improve characteristic `instanceId` resolution when multiple services share the same UUID
 

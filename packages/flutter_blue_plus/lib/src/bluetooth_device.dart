@@ -747,7 +747,7 @@ enum License {
   /// - Educational institutions
   nonprofit,
 
-  /// Deprecated alias for [License.nonprofit].
+  /// Renamed to [License.nonprofit].
   @Deprecated('Use License.nonprofit instead')
   free,
 
