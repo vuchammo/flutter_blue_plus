@@ -982,8 +982,12 @@ class BmSetOptionsRequest {
 
   Map<dynamic, dynamic> toMap() {
     final Map<dynamic, dynamic> data = {};
-    data['show_power_alert'] = showPowerAlert;
-    data['restore_state'] = restoreState;
+    if (showPowerAlert != null) {
+      data['show_power_alert'] = showPowerAlert;
+    }
+    if (restoreState != null) {
+      data['restore_state'] = restoreState;
+    }
     return data;
   }
 }
