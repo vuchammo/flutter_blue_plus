@@ -1,3 +1,6 @@
+## 2.3.6
+* **[Fix]** Darwin: crash when calling `setOptions` with a single argument (regression 2.3.0)
+
 ## 2.3.5
 * **[LICENSE]** add license ping during build: package name & app name
 

@@ -1,3 +1,6 @@
+## 9.0.1
+* **[Fix]** Darwin: crash when calling `setOptions` with a single argument (regression 9.0.0)
+
 ## 9.0.0
 * `BmSetOptionsRequest.showPowerAlert` and `restoreState` are now nullable so args can be set individually
 
