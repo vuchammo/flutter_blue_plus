@@ -1,3 +1,6 @@
+## 2.3.8
+* **[LICENSE]** clarify build-time license ping in the FlutterBluePlus License
+
 ## 2.3.7
 * **[Fix]** pub.dev dependency resolution error (regression 2.3.6)
 

@@ -1,3 +1,6 @@
+## 9.0.2
+* **[LICENSE]** clarify build-time license ping in the FlutterBluePlus License
+
 ## 9.0.1
 * **[LICENSE]** add license ping during build w/ package name & app name
 

@@ -1,3 +1,6 @@
+## 9.0.2
+* **[LICENSE]** clarify build-time license ping in the FlutterBluePlus License
+
 ## 9.0.1
 * **[Fix]** Darwin: crash when calling `setOptions` with a single argument (regression 9.0.0)
 
