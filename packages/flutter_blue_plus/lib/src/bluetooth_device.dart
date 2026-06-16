@@ -376,7 +376,7 @@ class BluetoothDevice {
 
     // Only allow a single BLE operation to be underway per device.
     _Mutex mtx = _MutexFactory.getMutexForKey(FlutterBluePlus._bleOperationMutexKey(remoteId));
-    await mtx.take();
+    if(!Platform.isIOS) await mtx.take();
 
     int rssi = 0;
 
@@ -402,7 +402,7 @@ class BluetoothDevice {
       }
       rssi = response.rssi;
     } finally {
-      mtx.give();
+       if(!Platform.isIOS) mtx.give();
     }
 
     return rssi;
